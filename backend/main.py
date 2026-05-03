@@ -17,6 +17,7 @@ from backend.routers import (
     financials,
     staff,
     inventory,
+    agents,
 )
 
 settings = get_settings()
@@ -64,3 +65,4 @@ app.include_router(integrations.router)
 app.include_router(financials.router)
 app.include_router(staff.router)
 app.include_router(inventory.router)
+app.include_router(agents.router)

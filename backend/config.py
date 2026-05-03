@@ -44,6 +44,15 @@ class Settings(BaseSettings):
     # Internal service key (Streamlit → FastAPI)
     internal_api_key: str = "zentox-internal-key-change-in-production"
 
+    # Anthropic (AI agents — claude-haiku-4-5)
+    anthropic_api_key: str = ""
+
+    # SMTP (for agent email delivery to info@fivezero3.net)
+    smtp_host: str = "smtp.gmail.com"
+    smtp_port: int = 587
+    smtp_user: str = ""
+    smtp_password: str = ""
+
     # CORS — restrict to your Hostinger domain in production
     allowed_origins: str = "http://localhost:8501,https://crm.zentoxaesthetics.com"
 
