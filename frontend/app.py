@@ -89,6 +89,7 @@ with st.sidebar:
     st.page_link("pages/07_Integrations.py", label="🔌 Integrations")
     st.markdown("**— AI —**")
     st.page_link("pages/15_AI_Agents.py", label="🤖 AI Agent Pipeline")
+    st.page_link("pages/16_Documents.py", label="📁 Document Library")
     st.markdown("---")
     if st.button("🚪 Sign Out", use_container_width=True):
         st.session_state.clear()

@@ -19,6 +19,10 @@ class Settings(BaseSettings):
     airtable_expenses_table_id: str = "tbl431eUodPxY4VKU"
     airtable_staff_table_id: str = "tblTQ3D319BHJSAEK"
     airtable_inventory_table_id: str = "tblkiNYWyl4R8cHVp"
+    airtable_documents_table_id: str = "tbloKulA9NfzHxJ1R"
+
+    # File uploads
+    upload_dir: str = "uploads/documents"
 
     # AestheticsPro
     aestheticspro_api_url: str = ""

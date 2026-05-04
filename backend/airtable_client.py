@@ -54,3 +54,7 @@ def staff_table():
 
 def inventory_table():
     return get_api().table(_settings.airtable_base_id, _settings.airtable_inventory_table_id)
+
+
+def get_documents_table():
+    return get_api().table(_settings.airtable_base_id, _settings.airtable_documents_table_id)
